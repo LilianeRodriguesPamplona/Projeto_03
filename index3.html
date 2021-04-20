@@ -1,0 +1,275 @@
+
+	<!--Projeto #3 - Estudando Layout.
+	Projeto #3 - Novas Sessões.
+	Projeto #3 - Estruturando responsivo.
+	Projeto #3 - Menu mobile e mais.
+	Projeto #3 - Preparando Slider.
+	Projeto #3 - Media queries, Formulário de contato etc.
+	Projeto #3 - Finalizando.
+	Projeto #3 - Integrando Google Maps.
+	Projeto #3 - Google Maps API.
+	Google maps DOC e Projeto #3.-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Projeto 03</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<meta charset="utf-8" />
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+</head>
+<body>
+
+<header>
+	<div class="container">
+	<div class="logo"></div><!--logo-->
+	<nav class="desktop-menu">
+		<ul>
+			<li><a href="">home</a></li>
+			<li><a href="">serviços</a></li>
+			<li><a href="">sobre</a></li>
+			<li><a href="">contato</a></li>
+		</ul>
+	</nav>
+
+	<nav class="mobile-menu">
+		<ul>
+			<li><a href="">home</a></li>
+			<li><a href="">serviços</a></li>
+			<li><a href="">sobre</a></li>
+			<li><a href="">contato</a></li>
+		</ul>
+	</nav>
+
+
+	<div class="clear"></div><!--clear-->
+
+	<div class="chamada1">
+		<h2>Sistemas Próprios<br />
+		Para Empresas Autênticas</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend commodo ipsum, vitae malesuada nisi convallis eget.</p>
+	</div><!--chamada1-->
+
+	</div><!--container-->
+</header>
+
+<section class="sessao1">
+	<div class="container">
+		<div class="texto-sessao1">
+			<h2>Desenvolvemos Sistema Únicos</h2>
+			<p>Lorem Ipsum silor domor amet</p>
+			<ul>
+				<li>Sites</li>
+				<li>Lojas Virtuais</li>
+				<li>Sistemas</li>
+			</ul>
+			<div class="clear"></div>
+			<div class="btn1-texto">Entre em contato</div>
+		</div><!--texto-sessao1-->
+		<div class="device-sessao1"></div><!--device-->
+		<div class="clear"></div>
+	</div><!--container-->
+</section><!--sessao1-->
+
+<section class="sessao2">
+	<div class="container">
+		<h2>Desenvolvido de pessoas para pessoas</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sagittis, risus ut tempus condimentum, urna est volutpat augue, a placerat ligula magna tincidunt sapien. Ut tempus pulvinar ante, at euismod orci commodo suscipit. Nunc ut viverra dui. Ut efficitur cursus diam a volutpat. Sed sagittis pharetra dolor, ac mollis sapien condimentum vitae. Ut in interdum tortor. 
+		</p>
+		<img src="imagens/mockup.jpg" />
+	</div><!--container-->
+</section><!--sessao2-->
+
+<section class="sessao3">
+
+<div class="part1">
+<div class="wraper-part1">
+<h2>Nosso time</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sagittis, risus ut tempus condimentum, urna est volutpat augue, a placerat ligula magna tincidunt sapien. Ut tempus pulvinar ante, at euismod orci commodo suscipit.</p>
+</div>
+</div><!--part1-->
+
+<div class="part2">
+	<div class="sobre-autor">
+		<div class="titulo-autor">
+			<div class="wraper-titulo-autor">
+				<h2>Liliane Rodrigues</h2>
+				<p>Co-Founder / Desenvolvedor</p>
+			</div><!--wraper-titulo-autor-->
+			<div class="img-autor"></div>
+		</div><!--titulo-autor-->
+		<div class="texto-autor">
+		<p>Proin sagittis, risus ut tempus condimentum, urna est volutpat augue, a placerat ligula magna tincidunt sapien.
+		Ut tempus pulvinar ante, at euismod orci.</p>
+		</div><!--texto-autor-->
+	</div><!--sobre-autor-->
+	<div class="slider-bullets">
+		<span style="background-color:#5F9EA0;"></span>
+		<span></span>
+		<span></span>
+	</div><!--slider-bullets-->
+</div><!--part2-->
+<div class="clear"></div>
+</section><!--sessao3-->
+
+<section class="sessao4">
+	<div class="container">
+		<div class="form">
+			<h2>Entre em contato</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam scelerisque lobortis iaculis. In hac habitasse platea dictumst. Cras vitae purus metus.</p>
+
+			<form>
+				<input type="text" name="nome" placeholder="Nome">
+
+				<input type="text" name="email" placeholder="E-mail">
+
+				<textarea name="mensagem" placeholder="Mensagem"></textarea>
+				<div class="clear"></div>
+				<div><input type="submit" value="Enviar"></div>
+			</form>
+			
+		</div><!--form-->
+
+		<div class="map-wraper">
+			<h2>Faça uma visita</h2>
+			<div class="map-wraper3">
+			<div class="map-wraper2">
+			<div class="map" id="mapa"></div>
+	</div><!--map-wraper2-->
+	</div><!--map-wraper3-->
+	</div><!--map-wraper-->
+
+		<div class="clear"></div>
+	</div><!--container-->
+</section><!--sessao4-->
+
+<footer>
+	<div class="container">
+	<p>Todos os direitos reservados</p>
+	<p>contato@lilianerodrigues.com</p>
+	<div class="clear"></div>
+</div><!--container-->
+</footer>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCK3VQ-4WOSFllojeb-2UDcAkwh8xNyomU"></script>
+<script type="text/javascript" src="js/functions.js"></script>
+</body>
+
+</html>
+
+
+
+<!-- Loadind brincadeira minha.
+<div class="loading"></div>
+-->
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>International Women's Day</title>
+		<style>
+			body{
+				height: 100vh;
+				margin: 0;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background: orange;
+			}
+
+			.flor{
+				position: relative;
+				width: 100px;
+				height: 100px;
+				background-color: yellowgreen;
+				border-radius: 50vh;
+			}
+
+			.ponta{
+				position: absolute;
+				height: 200px;
+				width: 100px;
+				background-color: purple;
+				text-align: center;
+				border-radius: 50vh;
+				z-index: -1;
+				transition: all 0.5s linear;
+			}
+
+			.ponta span{
+				color: white;
+				line-height: 150px;
+				font-family: cursive;
+				font-weight: 900px;
+			}
+
+			.ponta:nth-child(1){
+				bottom: -50px;
+			}
+
+			.ponta:nth-child(2){
+				bottom: -50px;
+				left: 0;
+				transform: rotate(90deg);
+			}
+
+			.ponta:nth-child(3){
+				transform: rotate(180deg);
+				bottom: -50px;
+			}
+
+			.ponta:nth-child(4){
+				left: 0;
+				bottom: -50px;
+				transform: rotate(-90deg);
+			}
+
+			.flor:hover .ponta:nth-child(1){
+				bottom: 0px;
+			}
+
+			.flor:hover .ponta:nth-child(2){
+				left: 50px;
+			}
+
+			.flor:hover .ponta:nth-child(3){
+				bottom: -100px;
+			}
+
+			.flor:hover .ponta:nth-child(4){
+				left: -50px;
+			}
+
+			h2{
+				margin-top: -200px;
+				width: 100%;
+				height: 100% 100%;
+				text-align: center;
+				color: purple;
+				font-size: 20px;
+				font-weight: 700px;
+				opacity: 0.6;
+
+			}
+
+		</style>
+</head>
+	<body>
+		<div class="flor">
+			<div class="ponta"><span>International</span></div>
+				<div class="ponta"><span>Women's</span></div>
+			<div class="ponta"><span>Mulheres</span></div>
+				<div class="ponta"><span>Day</span></div>
+				<h2>FELIZ DIA DAS MULHERES!!!</h2>
+		</div>
+	</body>
+</html>
+
+-->
